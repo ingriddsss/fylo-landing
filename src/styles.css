@@ -1,0 +1,241 @@
+:root {
+  --ff-accent: "Raleway", sans-serif;
+  --ff-body: "Open Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff-body);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 4rem;
+  /* background: pink; */
+}
+
+.header img {
+  /* width: 9%; */
+  max-width: 140px;
+  height: auto;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav ul li {
+  padding: 20px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  padding-left: 10px;
+}
+
+.hero {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 9rem;
+}
+
+.hero-text {
+  padding-inline: 4rem;
+  width: 50%;
+}
+
+.hero h1 {
+  font-family: var(--ff-accent);
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
+
+.input-email {
+  /* background: palegoldenrod; */
+  margin: 1rem;
+  margin-left: 0;
+}
+
+.input-email input {
+  font-family: var(--ff-body);
+  padding: 0.75rem;
+  margin-right: 1.25rem;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 60%;
+}
+
+.input-email button {
+  font-family: var(--ff-accent);
+  font-weight: 700;
+  background: hsl(224, 93%, 58%);
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  padding: 0.9rem 3.5rem;
+  margin-top: 16px;
+}
+
+.hero-img {
+  width: 50vw;
+}
+
+.hero-img img {
+  width: 85%;
+  height: auto;
+}
+
+#curve {
+  width: 100vw;
+  position: relative;
+  top: 5px;
+}
+
+.productive {
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  gap: 5rem;
+  background: hsl(240, 75%, 98%);
+  padding: 3rem 1rem;
+}
+
+.productive-text {
+  padding-left: 4rem;
+  width: 55%;
+}
+
+.productive-text h1 {
+  padding: 2rem 0;
+}
+
+.productive-line {
+  padding: 0.5rem;
+  padding-left: 0;
+}
+
+.productive-text a {
+  /* background: pink; */
+  margin: 1.25rem 0;
+}
+
+.productive h1 {
+  font-family: var(--ff-accent);
+}
+
+.productive a {
+  color: hsl(170, 45%, 43%);
+}
+
+.testimonial {
+  background: #fff;
+  padding: 1rem 2rem;
+  width: 20rem;
+  margin: 3rem;
+  margin-left: 0;
+  border-radius: 5px;
+  box-shadow: 3px 3px 15px hsl(240, 21%, 86%);
+}
+
+.testimonial-description {
+  font-size: 0.8rem;
+  line-height: 2;
+}
+
+#quotes {
+  margin: 0.5rem 0;
+}
+
+.user {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0.8rem;
+  margin-left: 0;
+}
+
+#user-img {
+  border-radius: 50%;
+  width: 14%;
+  width: 2rem;
+}
+
+.user-details {
+  margin-left: 0.5rem;
+}
+
+.name {
+  font-weight: bolder;
+  font-size: 0.75rem;
+}
+
+.role {
+  font-size: 0.65rem;
+}
+
+.productive-img {
+  width: 45%;
+  margin: 2rem;
+}
+
+.productive-img img {
+  width: 90%;
+  height: auto;
+}
+
+.support {
+  background: hsl(238, 22%, 44%);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+
+  padding: 5rem 5rem;
+}
+
+.support-info {
+  width: 45%;
+}
+
+.support-info h2 {
+  font-family: var(--ff-accent);
+  margin: 1rem 0;
+}
+
+.support-info p {
+  font-size: 0.75rem;
+}
+
+.support-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 43%;
+  padding-right: 4rem;
+}
+
+.support-input input {
+  max-width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.65rem;
+}
+
+.support-input button {
+  background: hsl(224, 93%, 58%);
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  width: 11rem;
+  padding: 0.65rem 0;
+}
