@@ -36,7 +36,7 @@ To get a copy of the project up and running on your local machine, follow these 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/ingriddsss/sunnyside-landing.git
+git clone https://github.com/ingriddsss/fylo-landing.git
 ```
 2. Open the project folder:
 
